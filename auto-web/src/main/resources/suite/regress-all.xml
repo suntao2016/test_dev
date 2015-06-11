@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="回归测试-all" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter">
+		</listener>
+	</listeners>
+
+<suite-files>
+<!-- 创建商品及上架 -->
+		<suite-file path="product-all.xml"></suite-file>
+				
+<!-- 现货订单 -->
+		<suite-file path="retailer\booking\pad-retailer-spotBook.xml"></suite-file>
+		<suite-file path="platform\seller\product\platform-order-spotSplit.xml"></suite-file>
+		<suite-file path="dealer\systemManage\dealer-SpotOrder-deliver.xml"></suite-file>
+        <suite-file path="retailer\my\ordercenter\retailer-spot-receiving.xml"></suite-file>
+
+		
+<!-- 期货订单 -->
+		<suite-file path="retailer\booking\pad-retailer-futureBook.xml"></suite-file>
+		<suite-file path="platform\buyer\platform-to-merge-order.xml"></suite-file>
+		<suite-file path="platform\buyer\platform-consolidated-order.xml"></suite-file>
+		<suite-file path="dealer\systemManage\dealer-fill-in-contract.xml"></suite-file>
+ 		<suite-file path="supplier\seller\order\supplier-fill-in-contract.xml"></suite-file>
+		<suite-file path="dealer\systemManage\dealer-confirm-contract.xml"></suite-file>
+		<suite-file path="supplier\seller\order\supplier-confirm-contract.xml"></suite-file>
+		<suite-file path="supplier\seller\order\supplier-shipping.xml"></suite-file>
+		<suite-file path="dealer\systemManage\dealer-receiving.xml"></suite-file>
+		<suite-file path="platform\seller\product\platform-futures-worth.xml"></suite-file>
+		<suite-file path="retailer\my\ordercenter\retailer-pay-final-payment.xml"></suite-file>
+		<suite-file path="dealer\systemManage\dealer-futures-order-deliver.xml"></suite-file>
+		<suite-file path="retailer\my\ordercenter\retailer-futures-receiving.xml"></suite-file>
+<!-- 订单完成商品评价 -->
+		<suite-file path="retailer\my\ordercenter\retailer-product-comment.xml"></suite-file>
+<!--零售商-取消订单 -->			
+			<suite-file path="retailer\my\ordercenter\retailer-cancel-order.xml"></suite-file>
+
+<!-- 创建优惠券、活动、零售商注册、审核、查看优惠券 -->
+		<suite-file path="promotion.xml"></suite-file>
+
+		
+<!-- 供应商-品牌管理 -->
+			<suite-file path="supplier\seller\brand\supplier-brand-management.xml"></suite-file>
+
+<!-- wofe-品牌审核 -->			
+			<suite-file path="platform\user\review\brand\supplier-addbrand-audit.xml"></suite-file>
+
+<!-- 供应商-用户中心 -->			
+			<suite-file path="supplier\user\user-center.xml"></suite-file>
+
+<!--类目系统-发布类目管理 -->			
+			<suite-file path="category\category\category-release.xml"></suite-file>
+<!--类目系统-用户管理 -->			
+			<suite-file path="category\usermanager\role-user-manager.xml"></suite-file>
+<!--经销商系统-用户中心 -->			
+			<suite-file path="dealer\user\dealer-register.xml"></suite-file>
+<!--零售商-提交反馈 -->			
+			<suite-file path="retailer\my\service\retailer-contact-customer-service.xml"></suite-file>
+<!--零售商-账户中心 -->			
+			<suite-file path="retailer\my\account\retailer-add-rolename.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-update-rolename.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-add-privilege-for-role.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-add-user.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-update-user.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-del-user.xml"></suite-file>
+			<suite-file path="retailer\my\account\retailer-del-rolename.xml"></suite-file>
+<!--零售商-收货信息 -->			
+			<suite-file path="retailer\booking\pad-retailer-receiverInfo.xml"></suite-file>
+<!--零售商-取消订单 -->			
+			<suite-file path="retailer\my\ordercenter\retailer-cancel-order.xml"></suite-file>
+
+<!--供应商-修改库存 -->			
+			<suite-file path="supplier\seller\stock\supplier-edit-stock.xml"></suite-file>
+			
+
+			
+			
+</suite-files>
+	
+	
+	
+</suite>

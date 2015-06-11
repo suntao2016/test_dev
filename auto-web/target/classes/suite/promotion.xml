@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="促销测试" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter">
+		</listener>
+	</listeners>
+	<parameter name="baseUrl" value=""></parameter>
+	<parameter name="loginname" value=""></parameter>
+	<parameter name="password" value=""></parameter>
+	<test name="创建活动，优惠券和查看未使用的优惠券" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+		    <!-- 平台创建优惠券 -->
+			<class name="com.ccigmall.auto.test.step.pc.platform.promotion.CouponAddStep">
+			</class>
+			<!-- 平台创建活动 -->
+			<class name="com.ccigmall.auto.test.step.pc.platform.promotion.CreateActivityStep">
+			</class>
+			<!-- 零售商注册 -->
+			<class name="com.ccigmall.auto.test.step.pc.retailer.registered.RetailerRegisteredStep">
+			</class>
+			<!-- 零售商审核 -->
+			<class
+				name="com.ccigmall.auto.test.step.pc.platform.user.review.merchant.RetailerReviewStep">
+			</class>
+			<!-- 零售商查看优惠券 -->
+			<class name="com.ccigmall.auto.test.step.pc.retailer.my.assets.ViewUnusedCoupon">
+			</class>
+		</classes>
+	</test>
+</suite>

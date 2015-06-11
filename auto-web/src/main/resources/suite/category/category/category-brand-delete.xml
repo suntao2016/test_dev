@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="category-brand-manager" preserve-order="true"
+	parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl" value="http://192.168.0.123:8080/"></parameter>
+	<parameter name="loginname" value="admin"></parameter>
+	<parameter name="password" value="123456"></parameter>
+
+	<test name="category-brand-manager" preserve-order="true">
+		<classes>
+			
+			<!-- 删除创建的品牌及子品牌-->
+			<class name="com.ccigmall.auto.test.step.pc.category.category.brandmanager.BrandDelStep">
+			</class>
+		</classes>
+	</test>
+</suite>

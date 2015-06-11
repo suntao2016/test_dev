@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="retailer-spot-receiving" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"
+		value="http://192.168.0.171:8080"></parameter>
+	<parameter name="loginname" value="zhaitest"></parameter>
+	<parameter name="password" value="qqqqqq"></parameter>
+
+	<test name="retailer-spot-receiving" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+			<class name="com.ccigmall.auto.test.step.pc.retailer.my.ordercenter.SpotReceiptStep">
+			</class>
+		</classes>
+	</test>
+</suite>

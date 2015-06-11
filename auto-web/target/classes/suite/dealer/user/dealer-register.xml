@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="经销商-用户中心" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"  value="http://192.168.0.124:8080/"></parameter>
+	<parameter name="loginname" value="zhaijxs"></parameter>
+	<parameter name="password" value="123456"></parameter>
+	<test name="用户中心" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+			<!-- 经销商注册 -->
+			 <class name="com.ccigmall.auto.test.step.pc.dealer.user.RegisterStep"/>  
+			 <!-- 经销商审核 -->
+			 <class name="com.ccigmall.auto.test.step.pc.platform.user.review.merchant.DealerReviewStep"/> 			 
+			<!-- 基本信息修改 -->
+			<class name="com.ccigmall.auto.test.step.pc.dealer.user.base.BaseInfoModifyStep"/> 
+			<!-- 权限管理 添加新角色 -->
+			<class name="com.ccigmall.auto.test.step.pc.dealer.user.authority.RoleAddStep"/>
+			<!-- 用户管理 添加新用户 -->
+			<class name="com.ccigmall.auto.test.step.pc.dealer.user.usermanage.UserAddStep"/>
+			<!-- 权限管理 修改角色 -->
+			<class name="com.ccigmall.auto.test.step.pc.dealer.user.authority.RoleModifyStep"/> 
+			<!-- 权限管理 删除角色 -->
+ 			<class name="com.ccigmall.auto.test.step.pc.dealer.user.authority.RoleDelStep"/>
+ 	</classes>
+	</test>
+</suite>

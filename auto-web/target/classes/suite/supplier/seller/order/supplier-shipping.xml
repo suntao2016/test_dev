@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="supplier-shipping" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"
+		value="http://192.168.0.125:8080"></parameter>
+	<parameter name="loginname" value="zhaigys"></parameter>
+	<parameter name="password" value="123456"></parameter>
+
+	<test name="shipping" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+			<class name="com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep">
+			</class>
+		</classes>
+	</test>
+</suite>

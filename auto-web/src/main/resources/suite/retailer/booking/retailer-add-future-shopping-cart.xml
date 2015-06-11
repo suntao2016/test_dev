@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="retailer-add-future-shopping-cart" preserve-order="true" parallel="tests"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"
+		value="http://192.168.1.171"></parameter>
+	<parameter name="loginname" value="13608088888"></parameter>
+	<parameter name="password" value="qqqqqq"></parameter>
+
+	<test name="addFutureShoppingCart" preserve-order="true">
+		<classes>
+			<class name="com.ccigmall.auto.test.step.pc.retailer.booking.AddFutureShoppingCartStep">
+			</class>
+		</classes>
+	</test>
+</suite>

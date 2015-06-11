@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="supplier-user-center" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"
+		value="http://192.168.0.125:8080/"></parameter>
+	<parameter name="loginname" value="zhaigys"></parameter>
+	<parameter name="password" value="123456"></parameter>
+
+	<test name="供应商注册、审核、填写修改角色、用户、子供应商" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+		<!-- 供应商注册 -->
+			<class name="com.ccigmall.auto.test.step.pc.supplier.register.SupplierRegisterStep">
+			</class>
+		<!-- 供应商审核 -->
+			<class name="com.ccigmall.auto.test.step.pc.platform.user.review.merchant.SupplierReviewStep">
+			</class>
+		
+		<!--添加修改角色 -->
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.authority.AuthorityManagerStep" />
+		<!--添加修改用户 -->
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.usermanager.UserManagerStep" />
+		<!--添加修改子供应商 -->
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.subsupplier.SubSupplierStep" />
+ 		<!--删除子供应商 -->	 
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.subsupplier.SubSupplierDelStep" />
+		
+		<!--删除用户 -->	 
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.usermanager.UserDelStep" />
+		<!--删除角色 -->	
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.authority.AuthorityDelStep" />
+		</classes>
+	</test>
+</suite>

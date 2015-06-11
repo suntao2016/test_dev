@@ -1,0 +1,1671 @@
+2015-01-29 16:50:45,332 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:50:45,335 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:50:45,466 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:50:45,725 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:50:45,934 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:50:45,977 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:50:45,979 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:50:45,979 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:50:45,985 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:50:45,986 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:50:45,987 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:50:45,988 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:50:45,990 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:50:45,990 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:50:45,992 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[true]
+2015-01-29 16:50:45,993 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = true
+2015-01-29 16:50:45,993 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:50:45,995 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:50:45,996 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: env/sit/base.properties
+2015-01-29 16:51:04,276 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 16:51:04,401 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 16:51:23,759 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:51:23,762 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:51:23,791 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:51:23,818 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:51:23,835 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:51:23,857 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:51:23,859 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:51:23,860 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:51:23,867 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:51:23,867 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:51:23,869 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:51:23,869 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:51:23,872 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:51:23,872 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:51:23,874 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:51:23,874 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:51:23,875 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:51:23,876 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:51:23,878 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:51:23,880 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:51:23,881 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:51:23,883 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:51:23,884 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:51:23,886 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:51:23,888 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:51:23,889 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:51:23,891 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:51:23,892 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:51:23,894 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:51:23,895 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:51:23,907 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 16:51:23,908 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 16:51:23,909 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 16:51:39,594 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:51:39,597 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:51:39,633 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:51:39,662 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:51:39,681 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:51:39,696 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:51:39,698 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:51:39,698 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:51:39,703 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:51:39,704 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:51:39,705 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:51:39,706 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:51:39,708 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:51:39,708 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:51:39,710 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:51:39,710 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:51:39,711 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:51:39,712 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:51:39,714 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:51:39,716 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:51:39,717 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:51:39,719 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:51:39,720 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:51:39,722 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:51:39,724 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:51:39,725 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:51:39,727 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:51:39,728 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:51:39,730 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:51:39,731 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:51:39,733 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 16:51:39,735 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 16:51:39,736 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 16:51:39,738 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:39,739 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:39,741 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:39,753 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 16:51:39,754 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 16:51:39,755 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 16:51:49,321 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:51:49,325 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:51:49,355 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:51:49,382 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:51:49,397 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:51:49,412 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:51:49,414 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:51:49,415 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:51:49,421 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:51:49,421 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:51:49,423 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:51:49,423 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:51:49,426 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:51:49,426 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:51:49,427 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:51:49,428 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:51:49,428 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:51:49,430 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:51:49,432 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:51:49,433 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:51:49,435 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:51:49,436 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:51:49,438 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:51:49,440 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:51:49,442 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:51:49,443 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:51:49,444 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:51:49,446 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:51:49,448 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:51:49,449 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:51:49,451 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 16:51:49,453 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 16:51:49,454 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 16:51:49,456 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:49,458 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:49,460 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:51:49,462 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 16:51:49,472 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 16:51:49,473 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 16:51:49,474 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 16:52:03,365 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:52:03,367 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:52:03,399 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:52:03,427 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:52:03,446 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:52:03,462 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:52:03,464 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:52:03,465 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:52:03,471 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:52:03,471 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:52:03,473 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:52:03,474 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:52:03,476 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:52:03,476 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:52:03,478 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:52:03,478 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:52:03,479 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:52:03,480 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:52:03,482 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:52:03,484 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:52:03,486 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:52:03,487 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:52:03,489 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:52:03,491 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:52:03,493 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:52:03,495 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:52:03,497 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:52:03,499 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:52:03,501 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:52:03,502 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:52:03,504 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 16:52:03,506 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 16:52:03,508 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 16:52:03,510 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:52:03,511 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:52:03,513 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:52:03,514 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 16:52:03,516 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 16:52:52,567 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 16:52:52,598 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 16:52:53,058 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 16:54:12,634 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:54:12,637 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:54:12,671 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:54:12,703 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:54:12,720 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:54:12,736 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:54:12,738 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:54:12,739 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:54:12,745 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:54:12,745 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:54:12,747 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:54:12,748 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:54:12,750 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:54:12,750 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:54:12,752 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:54:12,753 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:54:12,753 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:54:12,755 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:54:12,758 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:54:12,760 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:54:12,763 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:54:12,765 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:54:12,767 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:54:12,769 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:54:12,771 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:54:12,773 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:54:12,776 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:54:12,778 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:54:12,781 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:54:12,783 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:54:12,785 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 16:54:12,786 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 16:54:12,788 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 16:54:12,790 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:54:12,793 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:54:12,795 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:54:12,797 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 16:54:12,798 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 16:54:34,496 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 16:55:03,931 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 16:57:21,002 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 16:57:21,015 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 16:57:21,050 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 16:57:21,081 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 16:57:21,098 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 16:57:21,115 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 16:57:21,118 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 16:57:21,118 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 16:57:21,126 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 16:57:21,126 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 16:57:21,128 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 16:57:21,128 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 16:57:21,131 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 16:57:21,131 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 16:57:21,133 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 16:57:21,133 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 16:57:21,134 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 16:57:21,136 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 16:57:21,138 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 16:57:21,140 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 16:57:21,142 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 16:57:21,144 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 16:57:21,146 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 16:57:21,148 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 16:57:21,150 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 16:57:21,152 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 16:57:21,155 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 16:57:21,157 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 16:57:21,160 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 16:57:21,162 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 16:57:21,163 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 16:57:21,165 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 16:57:21,168 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 16:57:21,169 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:57:21,171 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:57:21,172 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 16:57:21,174 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 16:57:21,175 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 16:57:31,438 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 16:57:31,465 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 16:57:32,605 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 16:57:32,972 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 16:57:33,094 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 14d472d6-73f9-4d63-96b0-a3cf895259a1
+2015-01-29 16:57:33,096 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  Nsuj
+2015-01-29 16:57:33,176 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 16:58:06,546 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 16:58:08,946 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 16:58:17,314 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 16:58:19,522 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 16:58:47,239 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 16:58:53,468 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 16:59:12,501 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 16:59:13,458 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 16:59:20,820 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {e5d4ac78-3dc4-4cb7-9aa6-62cc9fc6efae} 
+2015-01-29 16:59:30,625 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 16:59:30,628 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 16:59:30,642 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:00:15,557 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:00:15,559 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:00:15,585 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:02:43,508 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:02:43,511 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:02:43,737 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:02:44,142 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:02:44,736 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:02:44,767 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:02:44,771 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:02:44,772 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:02:44,778 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:02:44,779 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:02:44,780 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:02:44,781 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:02:44,783 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:02:44,784 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:02:44,785 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:02:44,786 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:02:44,786 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:02:44,788 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:02:44,790 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:02:44,792 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:02:44,794 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:02:44,796 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:02:44,799 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:02:44,801 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:02:44,802 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:02:44,805 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:02:44,808 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:02:44,810 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:02:44,812 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:02:44,814 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:02:44,817 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:02:44,818 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:02:44,821 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:02:44,823 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:02:44,825 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:02:44,826 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:02:44,828 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:02:44,830 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:03:20,758 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:03:20,837 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:03:22,137 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:03:22,769 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:03:22,851 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 45c2c3c1-f18e-449a-a286-aeea50c15ce5
+2015-01-29 17:03:22,854 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 17:03:22,913 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:03:24,990 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 17:03:24,990 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:03:25,069 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:03:25,128 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 6af4ab6b-3e15-48a2-823c-c167acfd7069
+2015-01-29 17:03:25,130 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  MAty
+2015-01-29 17:03:25,188 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:03:45,924 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:04:14,122 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:07:46,722 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:07:46,725 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:07:46,756 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:07:46,786 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:07:46,800 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:07:46,815 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:07:46,817 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:07:46,817 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:07:46,824 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:07:46,824 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:07:46,825 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:07:46,826 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:07:46,828 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:07:46,829 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:07:46,830 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:07:46,831 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:07:46,831 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:07:46,833 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:07:46,835 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:07:46,836 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:07:46,838 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:07:46,840 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:07:46,842 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:07:46,843 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:07:46,845 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:07:46,847 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:07:46,848 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:07:46,850 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:07:46,852 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:07:46,853 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:07:46,855 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:07:46,857 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:07:46,858 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:07:46,860 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:07:46,862 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:07:46,864 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:07:46,865 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:07:46,867 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:07:57,975 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:07:58,027 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:07:59,075 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:07:59,272 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:07:59,381 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 51ba0d4b-2784-4b0d-acc1-9a28533cb79a
+2015-01-29 17:07:59,383 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  pNtt
+2015-01-29 17:07:59,459 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:08:08,188 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:08:20,291 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:08:20,294 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:08:20,329 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:08:20,367 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:08:20,384 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:08:20,403 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:08:20,405 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:08:20,405 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:08:20,411 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:08:20,411 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:08:20,413 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:08:20,413 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:08:20,416 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:08:20,416 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:08:20,418 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:08:20,419 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:08:20,419 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:08:20,421 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:08:20,422 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:08:20,424 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:08:20,425 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:08:20,427 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:08:20,429 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:08:20,431 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:08:20,433 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:08:20,435 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:08:20,436 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:08:20,438 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:08:20,440 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:08:20,442 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:08:20,444 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:08:20,445 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:08:20,447 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:08:20,449 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:08:20,450 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:08:20,452 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:08:20,454 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:08:20,456 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:08:31,032 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:08:31,167 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:08:31,937 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:08:32,058 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:08:32,149 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid cfe6cfba-74b9-4f4a-a301-a8dd5e3dee77
+2015-01-29 17:08:32,154 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  PevH
+2015-01-29 17:08:32,213 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:08:57,858 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:08:59,420 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:09:12,195 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:09:14,090 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:09:33,698 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:09:35,164 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:09:43,991 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:09:43,992 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:09:46,793 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {fa540bb5-0140-46bb-a316-9c6667ca408d} 
+2015-01-29 17:09:51,440 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:09:51,441 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:09:51,455 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:10:08,173 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:10:08,175 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:10:08,215 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:11:34,466 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:11:34,469 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:11:34,497 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:11:34,526 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:11:34,544 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:11:34,560 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:11:34,562 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:11:34,562 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:11:34,570 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:11:34,570 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:11:34,571 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:11:34,572 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:11:34,574 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:11:34,574 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:11:34,576 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:11:34,576 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:11:34,577 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:11:34,578 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:11:34,580 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:11:34,581 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:11:34,583 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:11:34,585 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:11:34,587 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:11:34,588 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:11:34,590 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:11:34,591 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:11:34,593 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:11:34,594 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:11:34,596 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:11:34,598 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:11:34,599 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:11:34,600 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:11:34,602 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:11:34,603 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:11:34,605 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:11:34,606 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:11:34,608 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:11:34,609 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:11:42,930 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:11:42,958 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:11:44,090 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:11:44,222 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:11:44,329 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 16d57b05-f928-4ecb-960b-bc59f5a1cdb1
+2015-01-29 17:11:44,331 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 17:11:44,392 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:11:45,887 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 17:11:45,889 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:11:45,986 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:11:46,074 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 2c90b7bc-0d76-4dd1-9d0f-38461f530d75
+2015-01-29 17:11:46,076 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  39wN
+2015-01-29 17:11:46,150 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:11:53,323 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:11:54,018 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:12:01,898 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:12:03,594 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:12:28,178 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:12:30,019 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:12:53,462 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:12:53,463 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:12:55,486 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {8756b3a7-c0ea-40d8-b99d-94824118af38} 
+2015-01-29 17:12:56,894 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:12:56,896 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:12:56,912 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:13:01,033 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:13:01,036 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:13:01,072 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:13:05,317 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:72] 点击提交按钮
+2015-01-29 17:14:35,108 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:14:35,111 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:14:35,144 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:14:35,174 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:14:35,192 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:14:35,208 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:14:35,210 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:14:35,210 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:14:35,216 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:14:35,217 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:14:35,218 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:14:35,218 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:14:35,221 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:14:35,221 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:14:35,223 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:14:35,223 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:14:35,224 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:14:35,225 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:14:35,227 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:14:35,228 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:14:35,230 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:14:35,232 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:14:35,233 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:14:35,235 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:14:35,236 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:14:35,238 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:14:35,240 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:14:35,242 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:14:35,243 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:14:35,245 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:14:35,246 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:14:35,248 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:14:35,249 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:14:35,251 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:14:35,253 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:14:35,254 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:14:35,256 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:14:35,258 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:14:56,333 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:14:56,362 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:14:57,809 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:14:57,936 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:14:58,020 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid e926c21d-4c26-4681-91b1-b272d01def07
+2015-01-29 17:14:58,022 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 17:14:58,084 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:14:59,404 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 17:14:59,404 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:14:59,470 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:14:59,547 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid b50f23af-2a81-403a-8c68-8468ce6cd093
+2015-01-29 17:14:59,549 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  Vpxt
+2015-01-29 17:14:59,610 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:15:24,405 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:15:33,418 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:15:40,548 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:15:42,668 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:16:07,226 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:16:12,611 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:16:32,485 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:16:32,487 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:16:36,023 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {7f3ee28c-695a-4dbc-9271-295ba530fbde} 
+2015-01-29 17:16:40,577 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:16:40,579 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:16:40,598 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:16:53,772 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:16:53,774 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:16:53,808 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:17:09,057 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:17:09,059 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:17:09,091 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:18:06,187 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:72] 点击提交按钮
+2015-01-29 17:21:02,947 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:21:02,949 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:21:02,984 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:21:03,048 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:21:03,170 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:21:03,186 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:21:03,188 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:21:03,189 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:21:03,195 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:21:03,196 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:21:03,198 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:21:03,198 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:21:03,200 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:21:03,200 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:21:03,202 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:21:03,202 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:21:03,203 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:21:03,205 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:21:03,206 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:21:03,208 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:21:03,210 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:21:03,212 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:21:03,214 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:21:03,215 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:21:03,217 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:21:03,219 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:21:03,221 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:21:03,222 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:21:03,225 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:21:03,227 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:21:03,230 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:21:03,232 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:21:03,234 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:21:03,236 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:21:03,237 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:21:03,239 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:21:03,241 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:21:03,243 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:21:15,007 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:21:15,075 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:21:16,580 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:21:16,681 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:21:16,756 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid b62c4960-dad7-45da-acb0-9e43bb82043c
+2015-01-29 17:21:16,758 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 17:21:16,820 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:21:18,094 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 17:21:18,095 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:21:18,151 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:21:18,218 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 34f0723b-7511-4026-a12a-052c90fce10f
+2015-01-29 17:21:18,219 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  XCgD
+2015-01-29 17:21:18,275 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:21:24,793 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:21:26,205 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:21:32,728 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:21:34,009 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:21:58,463 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:21:59,541 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:22:23,709 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:22:23,709 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:22:25,258 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {d77a9849-bb5d-417a-8f14-2638fe9fab9b} 
+2015-01-29 17:22:40,631 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:22:40,633 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:22:40,650 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:22:55,716 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:22:55,718 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:22:55,756 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:23:31,052 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:23:31,054 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:23:31,081 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:26:26,678 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:26:26,681 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:26:26,712 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:26:26,740 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:26:26,756 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:26:26,774 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:26:26,777 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:26:26,777 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:26:26,783 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:26:26,783 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:26:26,785 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:26:26,786 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:26:26,787 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:26:26,788 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:26:26,790 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:26:26,790 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:26:26,790 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:26:26,792 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:26:26,794 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:26:26,795 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:26:26,797 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:26:26,799 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:26:26,801 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:26:26,803 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:26:26,807 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:26:26,809 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:26:26,811 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:26:26,812 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:26:26,814 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:26:26,815 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:26:26,818 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:26:26,819 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:26:26,821 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:26:26,822 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:26:26,824 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:26:26,826 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:26:26,828 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:26:26,830 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:26:36,555 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:26:36,582 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:26:38,013 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:26:38,191 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:26:38,291 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 30210a4f-d6d8-4234-bd01-14f348cf1bca
+2015-01-29 17:26:38,295 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  pmXR
+2015-01-29 17:26:38,363 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:26:42,655 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:26:44,120 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:26:48,727 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:26:49,935 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:27:29,453 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:27:30,531 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:27:54,687 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:27:54,687 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:27:56,143 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {d9a25e07-5776-4a41-b1bc-32c3dd066f47} 
+2015-01-29 17:28:24,579 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:28:24,581 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:28:24,602 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:28:40,138 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:28:40,140 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:28:40,170 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:51:13,800 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 17:51:13,803 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 17:51:13,837 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 17:51:13,864 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 17:51:13,878 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 17:51:13,895 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 17:51:13,897 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 17:51:13,897 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 17:51:13,903 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 17:51:13,904 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 17:51:13,905 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 17:51:13,906 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 17:51:13,908 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 17:51:13,908 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 17:51:13,910 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 17:51:13,910 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 17:51:13,911 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 17:51:13,913 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 17:51:13,914 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 17:51:13,916 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 17:51:13,917 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 17:51:13,919 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 17:51:13,920 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 17:51:13,922 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 17:51:13,923 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 17:51:13,925 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 17:51:13,926 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 17:51:13,928 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 17:51:13,929 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 17:51:13,931 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 17:51:13,933 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 17:51:13,934 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 17:51:13,936 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 17:51:13,938 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:51:13,939 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:51:13,941 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 17:51:13,942 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 17:51:13,944 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 17:51:24,382 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 17:51:24,424 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 17:51:25,421 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 17:51:28,872 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 17:51:29,064 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid bc02b308-ca21-44b0-827a-a950324f9cc2
+2015-01-29 17:51:29,067 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  YBKq
+2015-01-29 17:51:29,148 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 17:51:33,460 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 17:51:34,283 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 17:51:46,296 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 17:51:47,504 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 17:52:07,087 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 17:52:08,162 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 17:52:32,397 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 17:52:32,397 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 17:52:33,868 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {1edbae38-d5d4-4eb0-90ab-ebdefd667222} 
+2015-01-29 17:52:40,435 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:52:40,436 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 17:52:40,453 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 17:52:53,152 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:52:53,154 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 17:52:53,190 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 17:53:05,902 INFO  [com.ccigmall.auto.test.act.SettingActiton:593] 开始截图，名称20150129-175305-供应商发货测试失败！.png
+2015-01-29 17:53:06,130 ERROR [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:67] 供应商发货测试失败！
+org.openqa.selenium.WebDriverException: object[i] is undefined
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Session ID: 0c60ac0a-0256-40d7-b407-15788e739ac1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=10.0.2, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.ccigmall.auto.test.act.SettingActiton.jsExecutor(SettingActiton.java:436)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.confirmPageInfo(SupplierShippingStep.java:136)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.testSupplierShipping(SupplierShippingStep.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.openqa.selenium.WebDriverException: object[i] is undefined
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at <anonymous class>.anonymous(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+	at <anonymous class>.<anonymous method>(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+2015-01-29 17:53:07,120 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 17:53:07,121 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 17:53:07,123 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:02:08,254 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:02:08,257 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:02:08,287 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:02:08,314 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:02:08,329 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:02:08,344 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:02:08,346 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:02:08,346 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:02:08,352 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:02:08,352 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:02:08,354 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:02:08,354 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:02:08,356 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:02:08,357 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:02:08,358 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:02:08,358 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:02:08,359 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:02:08,360 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:02:08,362 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:02:08,363 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:02:08,365 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:02:08,366 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:02:08,368 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:02:08,369 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:02:08,371 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:02:08,372 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:02:08,374 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:02:08,375 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:02:08,377 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:02:08,379 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:02:08,380 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:02:08,382 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:02:08,384 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:02:08,385 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:02:08,387 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:02:08,388 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:02:08,390 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:02:08,392 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:02:21,809 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:02:21,838 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:02:23,180 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:23,940 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:24,021 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid cd44fba1-fd88-4751-8856-b75d165d423e
+2015-01-29 18:02:24,023 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:02:24,160 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:25,574 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:02:25,575 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:25,649 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:25,718 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 59186a1b-409c-4dd6-ad2f-4844216df650
+2015-01-29 18:02:25,720 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:02:25,769 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:27,518 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:02:27,518 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:27,580 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:27,639 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 6e45f271-62c7-4b62-bfc3-ebcf4ed7f4c4
+2015-01-29 18:02:27,641 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:02:27,688 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:28,912 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:02:28,913 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:28,972 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:29,036 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid d32972a4-ac85-4bd2-be68-9bfa0cc1f044
+2015-01-29 18:02:29,038 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:02:29,086 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:30,288 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:02:30,288 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:30,355 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:30,417 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 8a10b805-303f-465a-ad33-545842012fb2
+2015-01-29 18:02:30,419 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:02:30,465 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:32,848 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:02:32,849 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:02:32,902 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:02:32,977 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 4bd3075c-ad3a-407a-9e58-0436e794c7e5
+2015-01-29 18:02:32,979 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  HRbv
+2015-01-29 18:02:33,037 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:02:39,796 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:02:41,418 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:03:04,325 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:03:05,545 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:03:45,146 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:03:46,224 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:03:55,445 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 18:03:55,445 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:03:56,973 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {e18f3887-562d-45ec-b12b-09385a159f45} 
+2015-01-29 18:04:01,064 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:04:01,067 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:04:01,085 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:04:31,336 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:04:31,338 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:04:31,368 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:04:57,875 INFO  [com.ccigmall.auto.test.act.SettingActiton:593] 开始截图，名称20150129-180457-供应商发货测试失败！.png
+2015-01-29 18:04:58,759 ERROR [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:67] 供应商发货测试失败！
+org.openqa.selenium.WebDriverException: obj is undefined
+Command duration or timeout: 262 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Session ID: 63e60c19-90e8-449e-93e8-81b62132d605
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=10.0.2, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.ccigmall.auto.test.act.SettingActiton.jsExecutor(SettingActiton.java:436)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.confirmPageInfo(SupplierShippingStep.java:136)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.testSupplierShipping(SupplierShippingStep.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.openqa.selenium.WebDriverException: obj is undefined
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at <anonymous class>.anonymous(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+	at <anonymous class>.<anonymous method>(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+2015-01-29 18:05:01,103 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 18:05:01,107 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 18:05:01,110 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:06:46,548 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:06:46,551 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:06:46,580 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:06:46,610 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:06:46,627 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:06:46,643 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:06:46,645 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:06:46,645 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:06:46,651 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:06:46,651 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:06:46,652 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:06:46,653 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:06:46,655 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:06:46,656 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:06:46,657 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:06:46,658 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:06:46,658 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:06:46,659 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:06:46,661 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:06:46,662 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:06:46,664 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:06:46,665 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:06:46,667 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:06:46,669 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:06:46,670 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:06:46,672 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:06:46,673 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:06:46,675 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:06:46,677 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:06:46,678 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:06:46,680 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:06:46,681 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:06:46,683 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:06:46,684 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:06:46,686 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:06:46,687 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:06:46,689 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:06:46,690 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:06:55,919 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:06:55,953 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:06:57,257 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:06:57,388 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:06:57,481 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 702f61a6-675e-41f0-92ce-236274b09ce5
+2015-01-29 18:06:57,483 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:06:57,759 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:06:59,107 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:06:59,108 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:06:59,187 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:06:59,268 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 58d182ec-31a2-4860-a32e-4e5c4b6de86a
+2015-01-29 18:06:59,270 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  GxDv
+2015-01-29 18:06:59,345 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:07:03,343 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:07:03,386 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:07:14,886 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:07:16,124 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:07:35,717 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:07:36,806 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:07:46,022 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 18:07:46,023 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:07:47,444 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {aab07777-ab67-4e57-bfae-b8b219f18344} 
+2015-01-29 18:07:57,254 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:07:57,255 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:07:57,271 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:08:16,063 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:08:16,065 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:08:16,092 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:11:15,677 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:11:15,679 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:11:15,707 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:11:15,733 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:11:15,749 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:11:15,764 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:11:15,766 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:11:15,767 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:11:15,774 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:11:15,774 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:11:15,775 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:11:15,776 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:11:15,777 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:11:15,777 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:11:15,779 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:11:15,779 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:11:15,779 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:11:15,781 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:11:15,782 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:11:15,784 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:11:15,785 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:11:15,787 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:11:15,789 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:11:15,790 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:11:15,792 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:11:15,793 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:11:15,795 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:11:15,796 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:11:15,798 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:11:15,800 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:11:15,801 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:11:15,803 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:11:15,804 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:11:15,806 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:15,807 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:15,809 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:15,810 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:11:15,812 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:11:39,235 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:11:39,307 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:11:43,896 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:11:43,904 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:11:43,943 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:11:43,973 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:11:43,988 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:11:44,003 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:11:44,006 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:11:44,006 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:11:44,014 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:11:44,014 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:11:44,016 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:11:44,184 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:11:44,188 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:11:44,188 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:11:44,190 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:11:44,190 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:11:44,190 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:11:44,192 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:11:44,196 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:11:44,199 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:11:44,200 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:11:44,202 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:11:44,204 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:11:44,205 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:11:44,207 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:11:44,209 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:11:44,210 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:11:44,212 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:11:44,216 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:11:44,217 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:11:44,219 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:11:44,220 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:11:44,222 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:11:44,224 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:44,226 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:44,227 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:44,229 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:11:44,230 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:11:45,472 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 18:11:45,475 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 18:11:45,476 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:11:54,982 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:11:54,985 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:11:55,016 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:11:55,044 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:11:55,059 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:11:55,080 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:11:55,083 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:11:55,083 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:11:55,091 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:11:55,092 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:11:55,093 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:11:55,094 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:11:55,096 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:11:55,096 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:11:55,098 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:11:55,098 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:11:55,099 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:11:55,100 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:11:55,102 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:11:55,103 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:11:55,105 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:11:55,106 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:11:55,108 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:11:55,110 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:11:55,112 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:11:55,113 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:11:55,115 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:11:55,116 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:11:55,121 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:11:55,122 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:11:55,124 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:11:55,125 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:11:55,127 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:11:55,128 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:55,130 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:55,132 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:11:55,133 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:11:55,135 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:12:07,305 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:12:07,353 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:12:09,092 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:12:09,218 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:12:09,296 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid c2e588dd-f686-41a8-ae3b-3027e198b0fa
+2015-01-29 18:12:09,297 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  GzMt
+2015-01-29 18:12:09,353 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:12:14,136 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:12:14,530 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:12:21,166 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:12:22,372 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:12:46,915 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:12:47,988 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:13:12,213 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 18:13:12,213 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:13:13,766 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {276edd73-9886-4981-be2e-9f11e992e73c} 
+2015-01-29 18:13:14,774 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:13:14,774 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:13:14,783 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:13:23,704 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:13:23,706 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:13:23,753 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:16:09,750 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:16:09,753 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:16:09,785 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:16:09,812 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:16:09,830 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:16:09,845 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:16:09,847 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:16:09,847 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:16:09,853 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:16:09,854 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:16:09,855 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:16:09,856 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:16:09,858 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:16:09,858 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:16:09,860 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:16:09,861 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:16:09,861 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:16:09,863 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:16:09,865 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:16:09,866 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:16:09,868 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:16:09,870 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:16:09,872 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:16:09,873 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:16:09,875 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:16:09,877 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:16:09,880 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:16:09,881 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:16:09,883 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:16:09,885 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:16:09,886 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:16:09,888 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:16:09,890 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:16:09,892 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:16:09,893 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:16:09,895 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:16:09,896 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:16:09,898 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:16:21,367 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:16:21,407 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:16:22,562 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:16:22,718 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:16:22,804 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 03b5ffdf-b2cd-4cd3-989f-87ebdbc3bece
+2015-01-29 18:16:22,806 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:16:22,867 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:16:24,420 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:16:24,421 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:16:24,479 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:16:24,548 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 3a6973a1-970d-49fb-94d5-c258485d36d7
+2015-01-29 18:16:24,550 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  ZsQA
+2015-01-29 18:16:24,607 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:16:32,614 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:16:34,804 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:16:46,947 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:16:48,149 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:17:02,324 INFO  [com.ccigmall.auto.test.act.SettingActiton:593] 开始截图，名称20150129-181702-供应商发货测试失败！.png
+2015-01-29 18:17:06,442 ERROR [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:67] 供应商发货测试失败！
+org.openqa.selenium.WebDriverException: syntax error
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Session ID: 565b16a3-c86d-4613-8567-f30e5c7f17ed
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=10.0.2, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.ccigmall.auto.test.act.SettingActiton.jsExecutor(SettingActiton.java:436)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.confirmPageInfo(SupplierShippingStep.java:142)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.testSupplierShipping(SupplierShippingStep.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.openqa.selenium.WebDriverException: syntax error
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+2015-01-29 18:17:13,270 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:17:13,273 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:17:13,314 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:17:13,350 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:17:13,366 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:17:13,381 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:17:13,383 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:17:13,383 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:17:13,390 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:17:13,390 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:17:13,392 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:17:13,408 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:17:13,411 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:17:13,412 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:17:13,414 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:17:13,414 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:17:13,414 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:17:13,418 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:17:13,423 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:17:13,425 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:17:13,429 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:17:13,431 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:17:13,435 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:17:13,436 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:17:13,438 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:17:13,440 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:17:13,442 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:17:13,444 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:17:13,446 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:17:13,448 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:17:13,450 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:17:13,452 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:17:13,455 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:17:13,457 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:13,459 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:13,460 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:13,462 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:17:13,464 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:17:17,030 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 18:17:17,031 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 18:17:17,032 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:17:23,670 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:17:23,673 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:17:23,710 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:17:23,745 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:17:23,764 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:17:23,776 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:17:23,778 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:17:23,778 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:17:23,785 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:17:23,785 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:17:23,857 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:17:23,858 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:17:23,860 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:17:23,860 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:17:23,862 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:17:23,862 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:17:23,863 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:17:23,985 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:17:23,988 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:17:23,990 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:17:23,991 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:17:23,993 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:17:24,664 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:17:24,667 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:17:24,669 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:17:24,671 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:17:24,673 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:17:24,675 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:17:24,677 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:17:24,679 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:17:24,682 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:17:24,684 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:17:24,686 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:17:24,688 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:24,689 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:24,691 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:17:24,693 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:17:24,695 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:17:35,817 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:17:35,846 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:17:36,980 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:17:37,092 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:17:37,187 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 5bf938b1-20da-44a0-9699-4547369d9d6a
+2015-01-29 18:17:37,189 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:17:37,247 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:17:38,502 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:17:38,502 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:17:38,562 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:17:38,626 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 2af6c129-6848-4324-9a3f-75b8174cdbf7
+2015-01-29 18:17:38,628 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  null
+2015-01-29 18:17:38,679 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:17:39,935 INFO  [com.ccigmall.auto.test.act.SettingActiton:307] Refresh Browser!
+2015-01-29 18:17:39,936 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:17:39,993 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:17:40,058 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 4d9da3c9-1a77-474a-bd15-88935100a038
+2015-01-29 18:17:40,060 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  nuur
+2015-01-29 18:17:40,114 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:17:44,543 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:17:44,580 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:17:51,009 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:17:52,221 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:18:16,835 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:18:17,929 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:18:27,147 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 18:18:27,149 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:18:28,683 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {c8cd456c-2456-44ea-899c-0a20f6096705} 
+2015-01-29 18:18:29,690 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:18:29,691 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:18:29,698 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:18:40,150 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:18:40,153 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:18:40,191 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:19:13,528 INFO  [com.ccigmall.auto.test.act.SettingActiton:593] 开始截图，名称20150129-181913-供应商发货测试失败！.png
+2015-01-29 18:19:13,569 ERROR [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:67] 供应商发货测试失败！
+org.openqa.selenium.WebDriverException: syntax error
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Session ID: 1f1846bd-b783-40d5-9cdc-fbf1ec7635fc
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=10.0.2, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.ccigmall.auto.test.act.SettingActiton.jsExecutor(SettingActiton.java:436)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.confirmPageInfo(SupplierShippingStep.java:142)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.testSupplierShipping(SupplierShippingStep.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.openqa.selenium.WebDriverException: syntax error
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(http://192.168.0.125:8080/order/toDespatchUI?orderId=142251113739652397:68)
+2015-01-29 18:19:14,297 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 18:19:14,297 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211
+2015-01-29 18:19:14,298 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:23:51,004 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:23:51,007 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:23:51,042 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:23:51,076 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:23:51,098 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:23:51,112 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:23:51,114 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:23:51,114 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:23:51,121 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:23:51,121 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:23:51,123 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:23:51,123 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:23:51,125 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:23:51,126 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:23:51,127 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:23:51,128 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:23:51,128 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:23:51,130 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:23:51,132 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:23:51,133 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129134134]
+2015-01-29 18:23:51,135 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:23:51,136 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:23:51,138 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142251113739652397]
+2015-01-29 18:23:51,139 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:23:51,141 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:23:51,142 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:23:51,144 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:23:51,145 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:23:51,147 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:23:51,148 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:23:51,150 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:23:51,151 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:23:51,153 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:23:51,154 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:23:51,156 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:23:51,157 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:23:51,159 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:23:51,160 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:23:59,015 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:23:59,043 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:23:59,721 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:23:59,851 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:23:59,939 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 5bce4724-f003-4a90-abb3-7a893b987e2f
+2015-01-29 18:23:59,942 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  CdA8
+2015-01-29 18:24:00,022 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:24:03,935 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:24:03,977 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:24:10,561 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:24:11,840 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142251113739652397
+2015-01-29 18:24:36,295 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:24:37,377 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:25:01,598 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129134134
+2015-01-29 18:25:01,598 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:25:03,004 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {57cd28ce-9919-4851-bed9-5d5e71bc9f0f} 
+2015-01-29 18:25:04,012 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:25:04,013 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:25:04,019 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:25:18,000 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:25:18,002 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:25:18,031 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:25:47,023 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:25:47,025 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:49] 获得页面批次号：8
+2015-01-29 18:25:47,054 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 8
+2015-01-29 18:26:03,430 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:72] 点击提交按钮
+2015-01-29 18:27:23,025 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 
+2015-01-29 18:27:23,026 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:57] 获得提交后的弹出框内容：
+2015-01-29 18:27:23,053 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 
+2015-01-29 18:29:11,244 INFO  [com.ccigmall.auto.test.utils.DataProvider:60] load ResourceFile　: selenium.properties
+2015-01-29 18:29:11,247 INFO  [com.ccigmall.auto.test.utils.DataProvider:149] load ResourceFile　: memcached/sit.properties
+2015-01-29 18:29:11,283 WARN  [net.rubyeye.xmemcached.XMemcachedClient:650] XMemcachedClient use Text protocol
+2015-01-29 18:29:11,311 INFO  [com.google.code.yanf4j.nio.impl.SelectorManager:37] Creating 8 reactors...
+2015-01-29 18:29:11,327 WARN  [com.google.code.yanf4j.core.impl.AbstractController:372] The Controller started at localhost/127.0.0.1:0 ...
+2015-01-29 18:29:11,344 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.150:11211
+2015-01-29 18:29:11,346 WARN  [com.google.code.yanf4j.core.impl.AbstractController:239] Add a session: 192.168.0.151:11211
+2015-01-29 18:29:11,346 INFO  [com.ccigmall.auto.test.utils.Selenium:82] 加载 sit  memcathed
+2015-01-29 18:29:11,351 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_env192.168.100.125]    val=[sit]
+2015-01-29 18:29:11,352 INFO  [com.ccigmall.auto.test.utils.Selenium:87] 环境 放入缓存  = sit
+2015-01-29 18:29:11,353 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_browser192.168.100.125]    val=[2]
+2015-01-29 18:29:11,354 INFO  [com.ccigmall.auto.test.utils.Selenium:92] 浏览器类型= 2
+2015-01-29 18:29:11,355 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_singleton192.168.100.125]    val=[true]
+2015-01-29 18:29:11,356 INFO  [com.ccigmall.auto.test.utils.Selenium:99] 单一浏览器 true
+2015-01-29 18:29:11,357 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_switch192.168.100.125]    val=[false]
+2015-01-29 18:29:11,357 INFO  [com.ccigmall.auto.test.utils.Selenium:107] 测试标志  = false
+2015-01-29 18:29:11,358 INFO  [com.ccigmall.auto.test.utils.Selenium:126] 超时时间  = 10
+2015-01-29 18:29:11,360 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_name192.168.100.125]    val=[翟经销商]
+2015-01-29 18:29:11,362 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_id192.168.100.125]    val=[1122058421345104]
+2015-01-29 18:29:11,363 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_product_name192.168.100.125]    val=[回归demo150129121341]
+2015-01-29 18:29:11,365 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_pay_id192.168.100.125]    val=[142122788960573450]
+2015-01-29 18:29:11,367 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_order_id192.168.100.125]    val=[142103138331627091]
+2015-01-29 18:29:11,370 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_purchase_id192.168.100.125]    val=[142250544451221451]
+2015-01-29 18:29:11,372 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_id192.168.100.125]    val=[142062673737741337]
+2015-01-29 18:29:11,373 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_actrule_name192.168.100.125]    val=[150113162351规则名称]
+2015-01-29 18:29:11,375 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_coupon_name192.168.100.125]    val=[]
+2015-01-29 18:29:11,377 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_brand192.168.100.125]    val=[0911冒烟测试]
+2015-01-29 18:29:11,379 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_category_subbrand192.168.100.125]    val=[]
+2015-01-29 18:29:11,380 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_productline192.168.100.125]    val=[巧克力]
+2015-01-29 18:29:11,382 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryName192.168.100.125]    val=[]
+2015-01-29 18:29:11,384 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dispCategoryName192.168.100.125]    val=[]
+2015-01-29 18:29:11,386 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryuser192.168.100.125]    val=[]
+2015-01-29 18:29:11,388 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_categoryrole192.168.100.125]    val=[]
+2015-01-29 18:29:11,390 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:29:11,392 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:29:11,394 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_supplieruser192.168.100.125]    val=[]
+2015-01-29 18:29:11,397 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_user192.168.100.125]    val=[]
+2015-01-29 18:29:11,398 INFO  [com.ccigmall.auto.test.utils.DataProvider:124] set memcached : key=[auto_dealer_role192.168.100.125]    val=[]
+2015-01-29 18:29:18,471 INFO  [com.ccigmall.auto.test.utils.Selenium:279] 启动浏览器   = C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+2015-01-29 18:29:18,518 INFO  [com.ccigmall.auto.test.step.ConstantStep:308] 
+
+description = test pc supplier 供应商发货
+
+2015-01-29 18:29:19,234 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:47] 输入登录名  zhaigys
+2015-01-29 18:29:19,386 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:57] 输入登录密码  123456
+2015-01-29 18:29:19,498 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:67] 获取uuid 8b3df551-3165-44c5-a11d-abee9a614172
+2015-01-29 18:29:19,500 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:77] 输入验证码  m7uQ
+2015-01-29 18:29:19,575 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:85] 点击提交
+2015-01-29 18:29:23,902 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:33] test pc supplier 供应商发货测试用例执行开始，测试用例名称是：com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep
+2015-01-29 18:29:24,072 INFO  [com.ccigmall.auto.test.act.pc.supplier.LoginAct:56] 点击卖家中心
+2015-01-29 18:29:30,621 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.SellerIndexAct:64] 点击已卖出的货品按钮
+2015-01-29 18:29:32,055 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.order.SpotOrderAct:55]  输入订单编号:142250544451221451
+2015-01-29 18:29:56,659 INFO  [com.ccigmall.auto.test.act.pc.dealer.systemManage.SystemManageAct:70] 点击搜索按钮
+2015-01-29 18:29:57,744 INFO  [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:77] 判断搜索到的商品是否是你想要的
+2015-01-29 18:30:21,980 INFO  [com.ccigmall.auto.test.act.SettingActiton:158] 回归demo150129121341
+2015-01-29 18:30:21,980 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.SoldGoodsAct:39] 点击确认发货按钮
+2015-01-29 18:30:23,418 INFO  [com.ccigmall.auto.test.act.SettingActiton:276] Switch to window {dc23c2d4-b4e9-47fc-9f07-6a7c679f1b50} 
+2015-01-29 18:30:24,425 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:30:24,426 INFO  [com.ccigmall.auto.test.act.pc.supplier.seller.order.ShippingAct:65] 确认页面 div 订单数量：2
+2015-01-29 18:30:24,434 INFO  [com.ccigmall.auto.test.act.SettingActiton:171] 2
+2015-01-29 18:31:48,396 INFO  [com.ccigmall.auto.test.act.SettingActiton:593] 开始截图，名称20150129-183148-供应商发货测试失败！.png
+2015-01-29 18:31:48,431 ERROR [com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep:67] 供应商发货测试失败！
+org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:72)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.confirmPageInfo(SupplierShippingStep.java:101)
+	at com.ccigmall.auto.test.step.pc.supplier.seller.order.SupplierShippingStep.testSupplierShipping(SupplierShippingStep.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//form[@id='despatch']/div/div[1]/descendant::td[4]"}
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Session ID: 91e57571-3cc1-4486-9aec-bee411c3bc9a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=10.0.2, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:40)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:140)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:70)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//form[@id='despatch']/div/div[1]/descendant::td[4]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Clark-PC', ip: '192.168.100.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_43'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(file:///C:/Users/de/AppData/Local/Temp/anonymous3486250512586129106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/de/AppData/Local/Temp/anonymous3486250512586129106webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548)
+2015-01-29 18:31:48,821 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.150:11211
+2015-01-29 18:31:48,823 INFO  [com.google.code.yanf4j.core.impl.AbstractController:478] Controller has been stopped.
+2015-01-29 18:31:48,824 WARN  [com.google.code.yanf4j.core.impl.AbstractController:348] Remove a session: 192.168.0.151:11211

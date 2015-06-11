@@ -1,0 +1,106 @@
+package com.ccigmall.auto.test.step.pc.retailer.my.account;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.Assert;
+import org.testng.TestNGException;
+import org.testng.annotations.Test;
+
+import com.ccigmall.auto.test.act.pc.retailer.my.account.UserManagementAct;
+import com.ccigmall.auto.test.constant.Constant;
+import com.ccigmall.auto.test.step.pc.retailer.RetailerStep;
+/**
+ * 
+ * @author  chenjingli
+ * 我的鑫网-我的订单-账户中心-用户管理-删除用户step
+ */
+public class DelUserStep extends RetailerStep{
+	/* 
+	 * slf4j
+	 */
+	private final static Logger logger = LoggerFactory
+			.getLogger(DelUserStep.class);
+	
+	protected UserManagementAct act;
+	@Test(description = "我的鑫网-我的订单-账户中心-用户管理-删除用户")
+	public void testAddNewRole()  {
+		try {
+			/**
+			 * 初始化对象
+			 */
+			act = new UserManagementAct(driver);
+			
+			logger.info("reailer 我的鑫网-我的订单-账户中心-用户管理-删除用户测试用例执行开始，测试用例名称是：{}", getClass().getName());
+			/**
+			 * 通过点击第一个checkbox去删除
+			 */
+			// 点击我的鑫网
+			act.clickMyCcigmall();
+			//点击用户管理
+			act.clickUserManagement();
+			
+			String beforeDelName1 = this.ifRolesLessThenThree();
+			logger.info("获得删除之前的用户名称是：{}",beforeDelName1);
+			
+			//点击删除按钮
+			act.clickDelButton();
+			//点击弹出框确定
+			act.clickDelSure1();
+			//=1s
+			act.pause(1);
+			
+			String afterDelName1 = act.getFirstUserName();
+			Assert.assertNotEquals(beforeDelName1, afterDelName1);
+			/**
+			 * 通过点击第一个删除按钮去删除
+			 */
+			String beforeDelName2 = act.getFirstUserName();
+			//选择第一个测试用户去删除
+			act.clickLastDel();
+			//点击弹出框确定
+			act.clickDelSure2();
+			//=1s
+			act.pause(1);
+			
+			String afterDelName2 = act.getLastUserName();
+			Assert.assertNotEquals(beforeDelName2, afterDelName2);
+			
+			logger.info("retailer我的鑫网-我的订单-账户中心-用户管理-删除用户测试用例执行结束！");
+		} catch (AssertionError e) {
+			logger.error("Constant.TEST_RETAILER_DEL_USER_FAIL ", e);
+			Assert.fail(Constant.TEST_RETAILER_DEL_USER_FAIL + " >> "
+					+ e.getMessage());
+		} catch (Exception e) {
+			logger.error(Constant.TEST_RETAILER_DEL_USER_FAIL, e);
+			throw new TestNGException("Constant.TEST_RETAILER_DEL_USER_FAIL >> "
+					+ e.getMessage(), e);
+		}
+	}
+	/**
+	 * 首先判断是否有测试数据没有的话就创建3跳测试数据，如果有测试数据再去判断是否是小于3条
+	 * 因为要测选中checkbox和不选中的两种情况的删除功能，而且必须保证列表中至少存在一个测试数据，如果不存在的话下面寻找用户名的时候元素查找不到会报错
+	 * 所以测试数据不能小于3条
+	 */
+	private String ifRolesLessThenThree(){
+		String beforeDelName1 = "";
+		if(act.getNoUserPromptInfo().contains("暂无用户")){
+			this.errorInfo();
+		}else{
+			int roles = act.getUserList();
+			if(roles<3){
+			this.errorInfo();
+			}else{
+				beforeDelName1 = act.getLastUserName();
+				//点击第一个checkbox
+				act.clickLastbox();
+				return beforeDelName1;
+			}
+		}
+		return null;
+	}
+	private void errorInfo(){
+		logger.error("用户列表的测试数据少于3条，请创建大于3条的测试数据，请跑增加用户用例：retailer-add-user.xml");
+		Assert.fail("用户列表的测试数据少于3条，请创建大于3条的测试数据");
+	}
+}

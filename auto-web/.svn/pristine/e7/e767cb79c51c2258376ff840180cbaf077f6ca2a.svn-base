@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="retailer-coupon" preserve-order="true" parallel="tests"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl" value="http://shop.ccigmall.com"></parameter>
+	<parameter name="loginname" value="zhaitest"></parameter>
+	<parameter name="password" value="qqqqqq"></parameter>
+
+	<test name="retailer-unused-coupon" preserve-order="true">
+		<classes>
+			<class name="com.ccigmall.auto.test.step.pc.retailer.my.assets.ViewUnusedCoupon">
+			</class>
+		</classes>
+	</test>
+</suite>

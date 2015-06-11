@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="retailer-booking-placeorder-pad" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+		<parameter name="baseUrl"
+		value="http://192.168.0.122:8080/"></parameter>
+	<parameter name="loginname" value="zhaitest"></parameter>
+	<parameter name="password" value="qqqqqq"></parameter>
+    <parameter name="padUserName" value="zhaitest"></parameter>
+	<parameter name="padPassword" value="qqqqqq"></parameter>
+    <parameter name="moblie" value="18500566580"></parameter>
+	<parameter name="useID" value="1947"></parameter>
+	<test name="pad下单" preserve-order="true" thread-count="1" verbose="1">
+		<classes>
+		<!-- pad零售商现货下单 -->
+			<class name="com.ccigmall.auto.test.step.pad.retailer.booking.SpotBookingStep" />
+		
+		</classes>
+	</test>
+</suite>

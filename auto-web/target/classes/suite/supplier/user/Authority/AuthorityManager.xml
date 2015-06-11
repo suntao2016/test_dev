@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="supplier-user-authority" preserve-order="true" parallel="tests"
+	thread-count="1">
+	<listeners>
+		<listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"></listener>
+	</listeners>
+	<parameter name="baseUrl"
+		value="http://192.168.0.125:8080/"></parameter>
+	<parameter name="loginname" value="zhaigys"></parameter>
+	<parameter name="password" value="123456"></parameter>
+
+	<test name="新增修改删除角色" preserve-order="true">
+		<classes>
+		<!--添加修改角色 -->
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.authority.AuthorityManagerStep" />
+		<!--删除角色 -->	
+		<class name="com.ccigmall.auto.test.step.pc.supplier.user.authority.AuthorityDelStep" />
+		</classes>
+	</test>
+</suite>

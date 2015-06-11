@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [retailer-add-future-shopping-cart]" parallel="tests">
+  <parameter name="baseUrl" value="http://192.168.1.171"/>
+  <parameter name="loginname" value="13608088888"/>
+  <parameter name="password" value="qqqqqq"/>
+  <listeners>
+    <listener class-name="com.ccigmall.auto.test.reporter.HTMLReporter"/>
+  </listeners>
+  <test name="addFutureShoppingCart(failed)" parallel="tests">
+    <classes>
+      <class name="com.ccigmall.auto.test.step.pc.retailer.booking.AddFutureShoppingCartStep">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testAddFutureShoppingCart"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.ccigmall.auto.test.step.pc.retailer.booking.AddFutureShoppingCartStep -->
+    </classes>
+  </test> <!-- addFutureShoppingCart(failed) -->
+</suite> <!-- Failed suite [retailer-add-future-shopping-cart] -->
